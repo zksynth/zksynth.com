@@ -1,0 +1,21 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon";
+import { Image } from "@astrojs/image/components";
+import heroImage from "assets/zksync.jpeg";
+import pyth from "assets/pyth.png";
+import graph from "assets/graph.png";
+
+
+---
+
+<div class="mt-24">
+  <h2 class="text-center text-slate-500">Using Technologies</h2>
+  <div class="flex gap-8 md:gap-20 items-center justify-center mt-10 flex-wrap">
+    <Image alt="zksync" src={heroImage} height={20} />
+    <Image alt="zksync" src={pyth} height={20} />
+    <Image alt="zksync" src={graph} height={30} />
+
+
+  </div>
+</div>
